@@ -34,17 +34,7 @@ The **Retail Sales Analyzer** executes the following tasks:
 - **Matplotlib**: For creating visualizations.
 - **Python 3.x**: For scripting and implementing the `RetailSalesAnalyzer` class.
 
-## Project Structure
 
-```
-├── data/                          # Directory for storing input sales data
-├── src/                           # Source code
-│   └── retail_sales_analyzer.py    # Contains RetailSalesAnalyzer class and methods
-├── notebooks/                     # Jupyter notebook for interactive analysis
-│   └── 08_02_Capstone_Project_Solution.ipynb
-├── README.md                      # Project documentation
-└── requirements.txt               # Python dependencies
-```
 
 ## Getting Started
 
@@ -62,19 +52,15 @@ pip install -r requirements.txt
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/retail-sales-analyzer.git
-   cd retail-sales-analyzer
+   git clone https://github.com/panchami-ks1/retailsalesanalyzer-pyspark.git
+   cd retailsalesanalyzer-pyspark
    ```
 
 2. **Prepare Data**:
-    - Place your sales data (CSV format) into the `data/` directory.
+    - Place your sales data (CSV format) into the current directory.
     - Modify the script to point to your CSV file if necessary.
 
-3. **Run the Script**:
-   Execute the script that runs the analysis:
-   ```bash
-   python src/retail_sales_analyzer.py
-   ```
+
 
    The script will:
     - Load the sales data.
